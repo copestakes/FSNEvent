@@ -16,10 +16,12 @@ body {
 
 .heading {
  
- 
-  background-color: #333;
-  background-blend-mode: multiply;
-  background-size: cover;
+  background-image: url(images/fsn-header.jpg);
+  background-size:cover;
+  height:80vh;
+  width:100%;
+  background-position: center;
+
 
 }
 
