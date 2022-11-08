@@ -164,3 +164,21 @@ nav a:hover {
     position: relative;
   }
 }
+
+.twist-history {
+  background: #fff; 
+}
+
+.sect-1 {
+  margin: 0px auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+
+.pretzel img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
