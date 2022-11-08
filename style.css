@@ -177,14 +177,139 @@ nav a:hover {
   width: 80%;
 }
 
-.pretzel img {
-  width: 400px;
-  height: 400px;
-  object-fit: cover;
-}
 
 .About img{
   width:50vh;
   height:100%;
   object-fit: cover;
+}
+
+.title {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  width: 610px;
+  margin: 0 auto;
+}
+
+.overlay-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.image {
+  display: block;
+  width: 100%;
+}
+
+.text {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  transition: translate(-50%, -50%);
+}
+
+
+.overlay {
+  position: absolute;
+  transition: all 300ms ease;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+}
+
+.overlay-container:hover .overlay {
+  opacity: 1;
+}
+
+.overlay-fade {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+
+.overlay-fade {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+
+.overlay-fade {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+
+.overlay-fade {
+  height: 100%;
+  width: 0;
+  top: 0;
+  right: 0;
+}
+
+.overlay-fade {
+  height: 0;
+  width: 100%;
+  top: 0;
+  right: 0;
+}
+.overlay-fade {
+  height: 0;
+  width: 100%;
+  top: 0;
+  right: 0;
+}
+
+.overlay-fade {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+}
+
+.overlay-fade {
+  height: 0;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+
+
+.overlay-container:hover .overlay-fade {
+  width: 100%;
+}
+
+.overlay-container:hover .overlay-fade {
+  width: 100%;
+}
+
+.overlay-container:hover .overlay-fade {
+  width: 100%;
+}
+
+.overlay-container:hover .overlay-fade {
+  width: 100%;
+}
+
+.overlay-container:hover .overlay-fade {
+  height: 100%;
+}
+
+.overlay-container:hover .overlay-fade {
+  height: 100%;
+}
+
+.overlay-container:hover .overlay-fade {
+  height: 100%;
+  width: 100%;
 }
