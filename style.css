@@ -182,3 +182,9 @@ nav a:hover {
   height: 400px;
   object-fit: cover;
 }
+
+.About img{
+  width:50vh;
+  height:100%;
+  object-fit: cover;
+}
