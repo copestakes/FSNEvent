@@ -216,6 +216,7 @@ nav a:hover {
   object-fit: cover;
 }
 
+
 .text {
   color: #fff;
   position: absolute;
@@ -251,4 +252,111 @@ left: 0;
 .overlay-container:hover .overlay-fade {
   height: 100%;
   width: 100%;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.holder {
+  //position: relative;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  &:after {
+    content: "";
+    display: table;
+  }
+}
+
+.container{
+  position: relative;
+  top:0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.card {
+  position: relative;
+  width: 305px;
+  height: 348px;
+  overflow: hidden;
+  background-color: #fff;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  transition: all 0.3s cubic-bezier(0.17, 0.71, 0.32, 0.96);
+  float: left;
+  margin-right: 74px;
+  margin-bottom: 40px;
+  color: inherit;
+  &.short {
+    height: 250px;
+  }
+  &.tall {
+    height: 450px;
+  }
+}
+.shadow {
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2), 0 2px 6px rgba(0, 0, 0, 0.2);
+  &:hover {
+    box-shadow: 0 3px 12px 2px rgba(0,0,0,0.15);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+  }
+}
+
+.img--container {
+  position: absolute;
+  height: 80%;
+  width: 100%;
+  top: 0;
+  overflow: hidden;
+  .short & {
+    height: 70%;
+  }
+  img {
+    height: 100%;
+    width: 100%;
+    object-position: cover;
+  }
+}
+
+.card--text {
+  bottom: 0;
+  width: 100%;
+  height: 20%;
+  position: absolute;
+  background-color: #fff;
+  transition: all 450ms cubic-bezier(0.6, 0.06, 0.34, 0.61);
+  transition: all 0.3s cubic-bezier(0.17, 0.71, 0.32, 0.96);
+  .short & {
+    height: 30%;
+  }
+}
+
+.text {
+  &--date {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    top: 15%;
+    font-size: 1rem;
+  }
+  &--location {
+    position: absolute;
+    top: 46%;
+    left: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.3rem;
+  }
 }
