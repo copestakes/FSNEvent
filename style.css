@@ -275,8 +275,12 @@ body {
 }
 
 .card-sect {
+  width: 70%;
+  margin: 0 auto;
   justify-content: center;
   display: flex;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
 
