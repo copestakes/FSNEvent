@@ -290,3 +290,16 @@ body {
 .tour-dates {
   background: #DAD4EF;
 }
+
+footer {
+  background:#7E70AF;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  color:#fff
+}
+
+footer p {
+  color: white;
+}
