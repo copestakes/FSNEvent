@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Mandali&family=Raleway:wght@500&display=swap');
+
+
 :root {
   --background: #7E70AF;
 }
@@ -16,6 +19,7 @@ body {
 
 
 
+
 .heading {
  
   background-image: url(images/fsn-header.jpg);
@@ -25,6 +29,17 @@ body {
   background-position: center;
 
 
+}
+
+h2 {
+  font-family: 'Mandali', sans-serif;
+  font-size: 15pt;
+  font-style: regular;
+}
+
+h3 {
+  font-family: 'Mandali', sans-serif;
+  font-size: 18pt;
 }
 
 .navigation {
@@ -183,7 +198,7 @@ nav a:hover {
 
 
 .About img{
-  width:50vh;
+  width:70vh;
   height:100%;
   object-fit: cover;
 }
