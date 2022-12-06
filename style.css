@@ -297,6 +297,16 @@ body {
   background: #DAD4EF;
 }
 
+.event-date {
+  margin: 0;
+  padding: 5%;
+  border: 0;
+  vertical-align: baseline;
+  font-size: 30px;
+}
+
+
+
 footer {
   background:#7E70AF;
   text-align: center;
