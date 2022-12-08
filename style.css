@@ -312,15 +312,14 @@ body {
   background: #DAD4EF;
 }
 
-.event-date {
-  margin: 0;
-  padding: 5%;
-  border: 0;
-  vertical-align: baseline;
-  font-size: 35px;
-  line-height: normal;
-  flex-direction: column;
+.datecontainer{
+  display: flex;
+  justify-content: space-around;
+  font-size: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
+
 
 
 
