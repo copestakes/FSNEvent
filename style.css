@@ -213,10 +213,24 @@ nav a:hover {
 }
 
 
-.About img{
-  width:40vh;
-  height:100%;
-  object-fit: cover;
+.cause {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.cause h1 {
+  padding:0;
+}
+
+.btwfimg img {
+  width: 300px;
+}
+
+.forthecause {
+  width: 30%;
 }
 
 .title {
@@ -306,6 +320,7 @@ body {
   padding: 15px;
 }
 
+
 .card-sect {
   width: 70%;
   margin: 0 auto;
@@ -317,9 +332,6 @@ body {
 
 
 
-
-
-  
 
 
 
@@ -340,6 +352,7 @@ body {
   display: flex;
   align-items: center;
   gap: 1em;
+  justify-content: space-between;
 }
 
 .datelist-card-button button{
